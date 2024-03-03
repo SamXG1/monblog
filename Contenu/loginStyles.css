@@ -1,0 +1,49 @@
+ /* Add CSS styles here */
+ html, body {
+    height: 100%;
+}
+
+body {
+    color: #bfbfbf;
+    background: black;
+    font-family: 'Futura-Medium', 'Futura', 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+.wrapper {
+    background-color: #333534;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 70%;
+}
+
+.form {
+    width: 70%;
+}
+
+.form h1 {
+    text-align: center;
+}
+
+.field {
+    margin-bottom: 20px;
+}
+
+.field label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.field input {
+    width: 100%;
+    padding: 10px;
+}
+
+.button input {
+    width: auto;
+    padding: 10px 20px;
+    cursor: pointer;
+}
